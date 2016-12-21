@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employees SYSTEM "emp.dtd">
+<employees>	
+	<employee aid="103" version="1.0" fname="t1">
+	<name>nishok</name>
+	<salary>1000</salary>
+	</employee>
+	<employee aid="101" fname="t2">
+		<name>kannans</name>
+		<salary>2000</salary>
+	</employee>
+	<employee aid="102" fname="t3">
+		<name>satheesh</name>
+		<salary>1000</salary>
+		
+	</employee>
+	<footer>&CopyRights;</footer>
+</employees>

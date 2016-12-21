@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/getbeans" xmlns:tns="http://www.example.org/getbeans" elementFormDefault="qualified">
+
+
+<element name="beans" type="tns:beanstype"></element>
+<complexType name="beanstype">
+<sequence>
+<element name="bean" type="tns:beantype"></element>
+</sequence>
+</complexType>
+<complexType name="beantype">
+	<sequence>
+		<element name="property" type="string"></element>
+		<element name="constructor-arg" type="string"></element>
+	</sequence>
+	<attribute name="id" type="ID" use="required"></attribute>
+</complexType>
+</schema>

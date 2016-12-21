@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT employees (employee+,footer)>
+<!ELEMENT employee (name,salary)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ATTLIST employee 
+aid CDATA #REQUIRED 
+version CDATA #IMPLIED
+enabled (true|false) "true" 
+no_of_course CDATA "5"
+fname CDATA #IMPLIED
+>
+<!ENTITY CopyRights "copyright:@2016">
